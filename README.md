@@ -1,6 +1,6 @@
-# SAFE Template
+# SAFE Login Demo
 
-This template can be used to generate a full-stack web application using the [SAFE Stack](https://safe-stack.github.io/). It was created using the dotnet [SAFE Template](https://safe-stack.github.io/docs/template-overview/). If you want to learn more about the template why not start with the [quick start](https://safe-stack.github.io/docs/quickstart/) guide?
+This is a demo of hooking up Google OAuth logins using the [SAFE stack](https://safe-stack.github.io/).
 
 ## Install pre-requisites
 
@@ -8,6 +8,7 @@ You'll need to install the following pre-requisites in order to build SAFE appli
 
 * The [.NET Core SDK](https://www.microsoft.com/net/download)
 * [FAKE 5](https://fake.build/) installed as a [global tool](https://fake.build/fake-gettingstarted.html#Install-FAKE)
+* [Paket](http://fsprojects.github.io/Paket/) installed as a global tool: `dotnet tool install --global Paket`
 * The [Yarn](https://yarnpkg.com/lang/en/docs/install/) package manager (you an also use `npm` but the usage of `yarn` is encouraged).
 * [Node LTS](https://nodejs.org/en/download/) installed for the front end components.
 * If you're running on OSX or Linux, you'll also need to install [Mono](https://www.mono-project.com/docs/getting-started/install/).

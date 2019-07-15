@@ -129,6 +129,8 @@ let column (model : Model) (dispatch : Msg -> unit) =
                     [ Checkbox.checkbox [ ]
                         [ input [ Type "checkbox" ]
                           str "Remember me" ] ]
+                  Field.div [ ]
+                    [ img [ Id "google-login" ] ]
                   Button.button
                     [ Button.Color IsInfo
                       Button.IsFullWidth

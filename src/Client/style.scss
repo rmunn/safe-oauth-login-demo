@@ -63,3 +63,20 @@ p {
   }
 }
 
+#google-login {
+  background-image: url(/btn_google_signin_dark_normal_web.png);
+  width: 191px;
+  height: 46px;
+
+  &:focus {
+    background-image: url(/btn_google_signin_dark_focus_web.png);
+  }
+
+  &:active {
+    background-image: url(/btn_google_signin_dark_pressed_web.png);
+  }
+
+  &.disabled {
+    background-image: url(/btn_google_signin_dark_disabled_web.png);
+  }
+}
